@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/anime-girls-squatting-rain-looking-at-viewer-animals-blue-flowers-2256828-wallhere.com.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  width: 400px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  padding: 30px 40px 40px 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.wrapper .input_area {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input_area input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  padding: 0 50px 0 20px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.input_area input::placeholder {
+  color: #fff;
+}
+
+.input_area i {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  transform: translateY(12px);
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.wrapper .remember_forgot {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 15px 0;
+}
+
+.remember_forgot label input {
+  margin-right: 3px;
+  transform: translateY(1.6px) scale(1.1);
+  accent-color: #fff;
+}
+
+.remember_forgot label {
+  color: #fff;
+}
+
+.remember_forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.remember_forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.wrapper .btn:hover {
+  background-color: transparent;
+  color: #fff;
+  transform: scale(1.2);
+}
+
+.btn:hover a {
+  color: #fff;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.register_link {
+  text-align: center;
+  margin-top: 18px;
+  color: #fff;
+}
+
+.register_link a {
+  margin-left: 2px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.register_link a:hover {
+  text-decoration: underline;
+}
